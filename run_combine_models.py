@@ -206,7 +206,7 @@ def partial_results(static_data):
 
 if __name__ == '__main__':
     # Initialize configuration and run the model combination pipeline
-    from Ptolemaida.short_term_image.configuration.config import config
+    from site_.short_term_image.configuration.config import config
     static_data = initializer(config())
     partial_results(static_data)
     # step1(static_data, parallel=False)

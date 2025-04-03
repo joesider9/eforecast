@@ -53,7 +53,7 @@ def feature_selection(static_data):
 
 
 if __name__ == '__main__':
-    project_name_list = ['Ptolemaida', 'short_term_image']
+    project_name_list = ['site_', 'short_term_image']
     name = '.'.join(project_name_list)
     module = importlib.import_module(f'{name}.configuration.config')
     config = getattr(module, 'config')

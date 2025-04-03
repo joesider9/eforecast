@@ -33,7 +33,7 @@ except:
 
 method = 'TIMM'
 cluster_name = 'global'
-path_cluster =  ('/media/smartrue/HHD1/George/models/PPC/PPC_sat_ver2/pv/Ptolemaida/multi-output/model_ver0/global')
+path_cluster =  ('/media/smartrue/HHD1/George/models/PPC/PPC_sat_ver2/pv/site_/multi-output/model_ver0/global')
 gpu_id = 0
 refit = bool(0)
 #
@@ -85,7 +85,7 @@ class ObjectiveProcess(ObjectiveAbstractClass):
 
 if __name__ == '__main__':
     # static_data = joblib.load(os.path.join(path_cluster, 'static_data.pickle'))
-    from Ptolemaida.short_term_image.configuration.config import config
+    from site_.short_term_image.configuration.config import config
     from eforecast.init.initialize import initializer
 
     static_data = initializer(config())

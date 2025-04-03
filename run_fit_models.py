@@ -48,7 +48,7 @@ def run_fit_models(project_name_list):
 
 if __name__ == '__main__':
     # Import configuration settings
-    from Ptolemaida.short_term_image.configuration.config import config
+    from site_.short_term_image.configuration.config import config
 
     # Initialize the system with configuration settings
     static_data = initializer(config())
